@@ -163,9 +163,19 @@ footer{text-align:left;padding:0}
 .frame-in .ph{position:absolute;inset:0}
 @media(max-width:860px){.phero{grid-template-columns:1fr;gap:44px}.page-hero .phero .frame{height:340px}}
 
-.ecar { margin-top: 32px; width: 100%; max-width: 900px; }
-.ecar .frame { width: 100%; max-width: none; margin: 0 0 14px; }   /* leaves room for the offset border */
-.ecar .frame-in { position: relative; aspect-ratio: 16 / 9; overflow: hidden; }
+.ecar { margin-top: 32px; width: 100%; }
+
+/* Reset the hero's fixed height so the photo's aspect ratio drives the size.
+   The right margin leaves room for the offset gold outline (no sideways scroll). */
+.ecar .frame {
+  width: calc(100% - 16px);
+  max-width: none;
+  height: auto;
+  margin: 0 16px 16px 0;
+}
+.ecar .frame::before { inset: 16px -16px -16px 16px; }
+
+.ecar .frame-in { position: relative; inset: auto; aspect-ratio: 16 / 9; overflow: hidden; }
 
 .ecar .slide {
   position: absolute; inset: 0; width: 100%; height: 100%;
@@ -186,3 +196,12 @@ footer{text-align:left;padding:0}
 .ecar .dots { position: absolute; bottom: 12px; left: 0; right: 0; z-index: 2; display: flex; justify-content: center; gap: 8px; }
 .ecar .dots button { width: 9px; height: 9px; padding: 0; border: 0; border-radius: 50%; background: rgba(255,255,255,.6); cursor: pointer; }
 .ecar .dots button.on { background: var(--gold); }
+
+@media (max-width: 860px) {
+  .ecar .frame { margin: 0 12px 12px 0; width: calc(100% - 12px); }
+  .ecar .frame::before { inset: 12px -12px -12px 12px; }
+  .ecar .frame-in { aspect-ratio: 4 / 3; }
+  .ecar-btn { width: 34px; height: 34px; font-size: 20px; }
+  .ecar-btn.prev { left: 8px; }
+  .ecar-btn.next { right: 8px; }
+}
