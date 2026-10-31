@@ -166,7 +166,7 @@ export const events = [
     ] as string[],
   },
   {
-    title: "The Master's Builder", date: "November 1, 2025", venue: "TASUED, Ijagun, Ijebu Ode", theme: "Master's Builder", attendance: "100+ attendees",
+    title: "The Master Builders", date: "November 1, 2025", venue: "TASUED, Ijagun, Ijebu Ode", theme: "Master's Builder", attendance: "100+ attendees",
     summary: "",
     highlights: ["Prayers", "Worship", "Panel Session", "The Word", "An Impartation Session"],
     testimonies: [{ quote: "[Placeholder testimony from an attendee.]", name: "Anu" }],
