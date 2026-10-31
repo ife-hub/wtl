@@ -41,12 +41,12 @@ export default function Partnership() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w">
           <div className="eyebrow">Impact</div><h2>{p.whyTitle}</h2><div className="rule" />
           <p style={{ maxWidth: 760 }}>{p.why}</p>
           <p style={{ margin: "14px 0 0" }}>Through partnership, you can contribute towards:</p>
-          <div className="cards">
+          <div className="cards cards-center">
             {p.areas.map((a, i) => (
               <div className="card" key={a.title}><b>{String(i + 1).padStart(2, "0")}</b><h3>{a.title}</h3><p>{a.text}</p></div>
             ))}
@@ -65,17 +65,16 @@ export default function Partnership() {
         </Reveal>
       </section>
 
-            <section className="dark">
+            <section className="tint">
         <Reveal className="w two">
           <div>
-            <div className="eyebrow">Fit</div>
             <h2>{p.whoTitle}</h2><div className="rule" />
             <p>{p.whoIntro}</p>
             <ul className="who" style={{ gridTemplateColumns: "1fr", marginTop: 18 }}>
               {p.who.map((w) => <li key={w}>{w}</li>)}
             </ul>
             <p className="lead" style={{ color: "var(--gold)", marginTop: 28 }}>
-              You do not need to be an active member of WTL.
+              You do not need to be an active member of Woman That Leads.
             </p>
             <p>{p.open}</p>
           </div>
@@ -89,7 +88,7 @@ export default function Partnership() {
           <div className="steps">
             {p.steps.map((s, i) => <div key={s.title}><b>{i + 1}</b><h3>{s.title}</h3><p>{s.text}</p></div>)}
           </div>
-          <h2 style={{ marginTop: 72 }}>Questions</h2>
+          <h2 style={{ marginTop: 72 }}>FAQs</h2>
           <Faq items={p.faqs} />
         </Reveal>
       </section>

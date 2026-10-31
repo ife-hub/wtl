@@ -23,7 +23,7 @@ export default function About() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w">
           <div className="cards" style={{ marginTop: 0 }}>
             <div className="card"><div className="eyebrow">Mission</div><p style={{ fontSize: 18, color: "var(--ink)" }}>{about.mission}</p></div>
@@ -46,7 +46,7 @@ export default function About() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w two" >
           <div>
             <div className="eyebrow">What We Believe</div><h2>Our foundation</h2><div className="rule" />

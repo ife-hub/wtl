@@ -11,18 +11,22 @@ const copy: Record<Kind, { select: string; message: string; button: string; done
 
 export default function EnquiryForm({ kind, options }: { kind: Kind; options: string[] }) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [sameWhatsapp, setSameWhatsapp] = useState(true);
   const c = copy[kind];
+  const phoneRequired = kind !== "contact";
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     setStatus("sending");
-    const data = Object.fromEntries(new FormData(form).entries());
+    const data: Record<string, FormDataEntryValue> = Object.fromEntries(new FormData(form).entries());
+    if (sameWhatsapp) data.whatsapp = data.phone ? "Same as phone" : "";
     try {
       const r = await fetch("/api/enquiry", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ kind, ...data }) });
       if (!r.ok) throw new Error("failed");
       setStatus("sent");
       form.reset();
+      setSameWhatsapp(true);
     } catch {
       setStatus("error");
     }
@@ -37,9 +41,16 @@ export default function EnquiryForm({ kind, options }: { kind: Kind; options: st
         <label>Email<input name="email" type="email" required autoComplete="email" /></label>
       </div>
       <div className="row">
-        <label>Phone / WhatsApp<input name="phone" type="tel" autoComplete="tel" /></label>
+        <label>Phone number<input name="phone" type="tel" required={phoneRequired} autoComplete="tel" inputMode="tel" placeholder="e.g. 0803 000 0000" /></label>
         {kind === "partnership" ? <label>Organization (optional)<input name="organization" /></label> : <label>City / Country<input name="location" /></label>}
       </div>
+      <label className="check">
+        <input type="checkbox" checked={sameWhatsapp} onChange={(e) => setSameWhatsapp(e.target.checked)} />
+        My WhatsApp number is the same as my phone number
+      </label>
+      {!sameWhatsapp && (
+        <label>WhatsApp number<input name="whatsapp" type="tel" required autoComplete="off" inputMode="tel" placeholder="Include the country code if outside Nigeria" /></label>
+      )}
       <label>{c.select}
         <select name="choice" required defaultValue="">
           <option value="" disabled>Select one</option>

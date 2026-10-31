@@ -31,7 +31,7 @@ export default function FeaturedProgramme({
         {p.scripture && (
           <div
             className="scr"
-            style={light ? { color: "#5a2147", opacity: 1 } : undefined}
+            style={light ? { color: "var(--plum2)", opacity: 1 } : undefined}
           >
             {p.scripture}
           </div>

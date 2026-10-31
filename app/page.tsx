@@ -39,7 +39,7 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w">
           <div className="eyebrow">Partnership</div>
           <h2>Invest in the leaders of tomorrow</h2><div className="rule" />
@@ -97,7 +97,7 @@ export default function Home() {
                   )}
                 </div>
                 {next.contact && (
-                  <p style={{ marginTop: 18, fontSize: 15, color: "#e9d9e3" }}>
+                  <p style={{ marginTop: 18, fontSize: 15, color: "#f0dfe2" }}>
                     For more enquiries, contact: <a href={`tel:${next.contact}`} style={{ color: "var(--gold)" }}>{next.contact}</a>
                   </p>
                 )}

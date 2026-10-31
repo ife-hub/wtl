@@ -24,7 +24,7 @@ export default function Discipleship() {
         </Reveal>
       </section>
 
-            <section className="dark">
+            <section className="tint">
         <Reveal className="w two">
           <Photo src={d.photo} label="Discipleship photo" className="tall" />
           <div>
@@ -56,13 +56,13 @@ export default function Discipleship() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w">
           <div className="eyebrow">Get Started</div><h2>{d.joinTitle}</h2><div className="rule" />
           <div className="steps">
             {d.join.map((s, i) => <div key={s.title}><b>{i + 1}</b><h3>{s.title}</h3><p>{s.text}</p></div>)}
           </div>
-          <h2 style={{ marginTop: 72 }}>Questions</h2>
+          <h2 style={{ marginTop: 72 }}>FAQs</h2>
           <Faq items={d.faqs} />
         </Reveal>
       </section>

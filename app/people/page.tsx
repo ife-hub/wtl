@@ -11,7 +11,7 @@ export default function People() {
   const [lead, ...team] = people;
   return (
     <>
-      <PageHeader eyebrow="The People of WTL" title="The women behind the vision" intro="Meet the leaders and team serving women through WTL." />
+      <PageHeader eyebrow="The People of WTL" title="The women behind the vision" intro="Meet the leaders and team serving women through Woman That Leads." />
 
       <section>
         <Reveal className="w feat">
@@ -24,12 +24,12 @@ export default function People() {
         </Reveal>
       </section>
 
-      <section className="dark">
+      <section className="tint">
         <Reveal className="w">
           <div className="eyebrow">The Team</div><h2>Serving together</h2><div className="rule" />
           <div className="ppl">
             {team.map((p, i) => (
-              <div key={i}><Photo src={p.photo} label="Photo" /><h3>{p.name}</h3><div className="meta" style={{ justifyContent: "center", margin: "4px 0 10px" }}><span>{p.role}</span></div><p style={{ color: "#e9d9e3" }}>{p.bio}</p></div>
+              <div key={i}><Photo src={p.photo} label="Photo" /><h3>{p.name}</h3><div className="meta" style={{ justifyContent: "center", margin: "4px 0 10px" }}><span>{p.role}</span></div><p>{p.bio}</p></div>
             ))}
           </div>
         </Reveal>

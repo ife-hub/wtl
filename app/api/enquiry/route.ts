@@ -21,6 +21,7 @@ export async function POST(req: Request) {
     name: clip(body.name, 120),
     email: clip(body.email, 200),
     phone: clip(body.phone, 40),
+    whatsapp: clip(body.whatsapp, 60), // NEW
     organization: clip(body.organization, 200),
     location: clip(body.location, 200),
     choice: clip(body.choice, 200),
@@ -31,7 +32,8 @@ export async function POST(req: Request) {
     !KINDS.includes(payload.kind) ||
     !payload.name ||
     !/^\S+@\S+\.\S+$/.test(payload.email) ||
-    !payload.choice
+    !payload.choice ||
+    (payload.kind !== "contact" && !payload.phone) // NEW
   ) {
     console.error("[enquiry] validation failed:", payload);
     return NextResponse.json({ ok: false, error: "invalid" }, { status: 400 });

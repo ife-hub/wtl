@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: { default: "Woman That Leads", template: "%s | Woman That Leads" },
   description: "Discipling and forming women to know God, walk in their calling and lead effectively.",
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#3a0f2e" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#4a0e1e" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
