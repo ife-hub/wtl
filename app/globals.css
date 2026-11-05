@@ -228,3 +228,36 @@ footer{text-align:left;padding:0}
 .form label.check{display:flex;align-items:center;gap:10px;font-size:15px;letter-spacing:0;text-transform:none}
 .form label.check input{width:auto;accent-color:var(--gold);transform:scale(1.2)}
    .feature.light .poster img{box-shadow:0 18px 40px rgba(74,14,30,.25)}
+
+   .card-wide { grid-column: 1 / -1; }
+
+.acct { margin-top: 18px; border-top: 1px solid rgba(0,0,0,.1); padding-top: 16px; }
+.acct-bank {
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--gold); font-weight: 600; margin-bottom: 10px;
+}
+.acct ul {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+}
+.acct li {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 14px 16px; border: 1px solid rgba(0,0,0,.1); border-radius: 10px;
+}
+.acct-info { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.acct-name { font-size: 14px; line-height: 1.4; }
+.acct-cur {
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
+  padding: 3px 8px; border-radius: 999px; background: var(--gold); color: #fff; flex-shrink: 0;
+}
+.acct-num { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.acct-num code { font-size: 20px; letter-spacing: .06em; font-variant-numeric: tabular-nums; }
+.copy-btn {
+  font-size: 12px; padding: 5px 12px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--gold); background: transparent; color: var(--gold);
+}
+.copy-btn:hover { background: var(--gold); color: #fff; }
+
+@media (max-width: 700px) {
+  .acct ul { grid-template-columns: 1fr; }
+}

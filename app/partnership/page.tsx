@@ -4,6 +4,7 @@ import Photo from "@/components/Photo";
 import Faq from "@/components/Faq";
 import EnquiryForm from "@/components/EnquiryForm";
 import { partnership as p } from "@/lib/content";
+import CopyButton from "@/components/CopyButton";
 
 export const metadata: Metadata = { title: "Partnership" };
 
@@ -20,7 +21,7 @@ export default function Partnership() {
               <a className="btn" href="#enquire">Become a Partner</a>
               <a className="btn o" href="#ways">Ways to partner</a>
             </div>
-            <p style={{ marginTop: 18, fontSize: 15 }}>Open to individuals, businesses, ministries and institutions.</p>
+            <p style={{ marginTop: 18, fontSize: 15 }}>Partnerships are open to individuals, businesses, ministries and institutions.</p>
           </div>
           <div className="frame">
             <div className="frame-in"><Photo src={p.heroImage} label="Partnership photo" /></div>
@@ -60,8 +61,33 @@ export default function Partnership() {
           <div className="eyebrow">Get Involved</div><h2>{p.waysTitle}</h2><div className="rule" />
           <p>{p.waysIntro}</p>
           <div className="cards">
-            {p.ways.map((w) => <div className="card" key={w.title}><h3>{w.title}</h3><p>{w.text}</p></div>)}
-          </div>
+  {p.ways.map((w) => (
+    <div className={`card${w.accounts ? " card-wide" : ""}`} key={w.title}>
+      <h3>{w.title}</h3>
+      <p>{w.text}</p>
+
+      {w.accounts && (
+        <div className="acct">
+          <div className="acct-bank">{w.bank}</div>
+          <ul>
+            {w.accounts.map((a) => (
+              <li key={a.number}>
+                <div className="acct-info">
+                  <span className="acct-name">{a.name}</span>
+                  <span className="acct-cur">{a.currency}</span>
+                </div>
+                <div className="acct-num">
+                  <code>{a.number}</code>
+                  <CopyButton value={a.number} />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  ))}
+</div>
         </Reveal>
       </section>
 

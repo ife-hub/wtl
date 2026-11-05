@@ -5,9 +5,9 @@ export const site = {
   short: "WTL",
   tagline: "Raising godly, equipped, purpose-driven leaders",
   email: "womanthatleads@gmail.com",
-  phone: "+234 000 000 0000", // [Placeholder]
-  whatsapp: "https://wa.me/2340000000000", // [Placeholder] wa.me/<number without +>
-  location: "[Placeholder: city / country]",
+  phone: "0706 412 9377",
+  whatsapp: "https://wa.me/2347064129377",
+  location: "Nigeria",
   responseTime: "We reply within 2 working days.",
 };
 
@@ -39,36 +39,35 @@ export const about = {
   story: [
     "The Journey of WomanThatLeads (WTL: WomanThatLeads (WTL) was birthed from a burden in the heart of Faith Adedoja to see women grow in God, discover their God-given purpose, and courageously take their places in their spheres of influence. During a personal retreat in January 2020, the vision became a ministry, following the leading of the Holy Spirit. What began as an online blog in 2019 gradually evolved into a WhatsApp community in 2020, where women engaged in daily Scripture meditations, When Women Pray, and Bible reviews. That same year, WTL hosted its first She Leads Conference online during the COVID-19 pandemic. In November 2021, the ministry held its first physical gathering, the second edition of She Leads Conference, marking a significant transition into in-person gatherings.",
     "Over the years, WTL has continued to grow through initiatives such as OIKODOMEO, its quarterly prayer meeting; She Leads Conference; Word Conference; and 5,000 Girls for Jesus, its secondary-school outreach, which has reached over 3,000 students. In 2025, the ministry expanded its digital expression through The 360-Degree Woman newsletter and began campus invasions, taking the message of revival and the Gospel to tertiary institutions. In December 2025, WTL received a fresh instruction from the Holy Spirit to strengthen its focus on intentional discipleship. By 2026, it had run two discipleship cohorts within five months, while continuing campus outreach, conferences, prayer initiatives, and digital ministry.",
-    "Today, WomanThatLeads remains committed to raising women who know God, live by His standard, fulfil their purpose, and transform their spheres of influence for the glory of Christ. What began as a blog continues to unfold as a growing movement of discipleship, spiritual formation, leadership development, and kingdom influence.",
+    "Today, WomanThatLeads remains committed to raising women who know God, live by His standard, fulfill their purpose, and transform their spheres of influence for the glory of Christ. What began as a blog continues to unfold as a growing movement of discipleship, spiritual formation, leadership development, and kingdom influence.",
   ],
   mission:
-    "To disciple and equip women through the teaching of God's Word, prayer, spiritual growth, and leadership development, nurturing them in Christ, to discover and fulfil their God-given purpose, and take up their positions in the various spheres of influence according to God's standard. 30+ women discipled. 10+ events held. Remove partners for now. 7 years of ministry.",
+    "To disciple and equip women through the teaching of God's Word, prayer, spiritual growth, and leadership development, nurturing them in Christ, to discover and fulfill their God-given purpose, and take up their positions in the various spheres of influence according to God's standard.",
   vision:
     "To raise a generation of women who exemplify Christ in word, conduct, love, spirit, faith, and purity, living by God's standard, fulfilling their God-given purpose, and transforming their spheres of influence for His glory.",
   values: [
     { title: "Christlikeness", text: "We are committed to reflecting Christ in our words, conduct, love, spirit, faith, and purity. We uphold God's Word as our standard for living, serving, and leading." },
     { title: "Spiritual Growth and Intimacy", text: "We prioritise a deep, personal relationship with God through prayer, the study of His Word, fellowship, and obedience to the leading of the Holy Spirit." },
     { title: "Intentional Discipleship", text: "We believe in raising women who do not merely receive the truth but live it, grow through it, and reproduce it in the lives of others. We are committed to spiritual formation, accountability, and lifelong growth in Christ." },
-    { title: "Purpose and Influence", text: "We believe every woman has a God-given assignment. We equip women to discover, embrace, and fulfil their purpose while bringing godly influence to their families, careers, businesses, ministries, and communities." },
+    { title: "Purpose and Influence", text: "We believe every woman has a God-given assignment. We equip women to discover, embrace, and fulfill their purpose while bringing godly influence to their families, careers, businesses, ministries, and communities." },
     { title: "Leadership and Service", text: "We nurture women who lead with wisdom, courage, humility, and integrity. We believe leadership is a responsibility to serve, inspire, develop others, and create meaningful change in every sphere of influence." },
     { title: "Excellence", text: "We pursue excellence in our character, service, programmes, and administration. We are committed to intentional preparation, diligence, quality, and faithful stewardship, offering our best to God in all we do." },
     { title: "Love and Community", text: "We cultivate a community where women are loved, supported, encouraged, and strengthened in their walk with God. We value fellowship, genuine relationships, mutual edification, and the responsibility to help one another grow."},
     { title: "Integrity and Purity", text: "We uphold honesty, accountability, sound character, and purity in our personal lives, relationships, leadership, and ministry operations. We desire to honour God both in public and in private"},
-    { title: "Faithfulness and Obedience", text: "We value sensitivity to the Holy Spirit and a willingness to obey God's instructions. We remain committed to His vision, trusting Him for direction, provision, growth, and the grace to fulfil the assignment entrusted to us."},
+    { title: "Faithfulness and Obedience", text: "We value sensitivity to the Holy Spirit and a willingness to obey God's instructions. We remain committed to His vision, trusting Him for direction, provision, growth, and the grace to fulfill the assignment entrusted to us."},
   ],
   beliefs: [
     "The Authority of God's Word: We believe the Bible is the inspired Word of God and the standard for our faith, character, and conduct. We are committed to living according to its truth, growing in the knowledge of God, and exemplifying Christ in word, conduct, love, spirit, faith, and purity.",
-    "Spiritual Growth and Intentional Discipleship: We believe that every believer is called to grow in Christ, develop spiritual maturity, and live out the truth of God's Word. Through prayer, fellowship, obedience to the Holy Spirit, and intentional discipleship, we are equipped to fulfil our God-given purpose and help others grow in their walk with God.",
-    "Purpose, Leadership, and Kingdom Influence: We believe that God has called women to fulfil His purposes and influence their spheres of influence for His glory. We are committed to raising women who lead with Christlike character, integrity, love, and excellence, taking the Gospel into their families, careers, businesses, ministries, educational institutions, and communities."
+    "Spiritual Growth and Intentional Discipleship: We believe that every believer is called to grow in Christ, develop spiritual maturity, and live out the truth of God's Word. Through prayer, fellowship, obedience to the Holy Spirit, and intentional discipleship, we are equipped to fulfill our God-given purpose and help others grow in their walk with God.",
+    "Purpose, Leadership, and Kingdom Influence: We believe that God has called women to fulfill His purposes and influence their spheres of influence for His glory. We are committed to raising women who lead with Christlike character, integrity, love, and excellence, taking the Gospel into their families, careers, businesses, ministries, educational institutions, and communities."
   ],
   stats: [
-    { n: "00+", label: "Women discipled" },
-    { n: "0", label: "Events held" },
-    { n: "00+", label: "Partners" },
-    { n: "0", label: "Years of ministry" },
+    { n: "30+", label: "Women discipled" },
+    { n: "10+", label: "Events held" },
+    { n: "7", label: "Years of ministry" },
   ],
   milestones: [
-    { year: "2019", title: "The vision is born", text: "WomanThatLeads began as an online blog, driven by Faith Adedoja’s burden to see women grow in God and fulfil their God-given purpose. During a personal retreat in January 2020, the vision became a ministry, following the leading of the Holy Spirit." },
+    { year: "2019", title: "The vision is born", text: "WomanThatLeads began as an online blog, driven by Faith Adedoja’s burden to see women grow in God and fulfill their God-given purpose. During a personal retreat in January 2020, the vision became a ministry, following the leading of the Holy Spirit." },
     { year: "2020", title: "First gathering", text: "The vision grew into a WhatsApp community centred on daily Scripture meditations, When Women Pray, and Bible reviews. WTL also hosted its first She Leads Conference online during the COVID-19 pandemic." },
     { year: "2025-2026", title: "Discipleship Program launched", text: "Following a fresh instruction from the Holy Spirit in December 2025, WTL began a stronger focus on intentional discipleship. By 2026, two discipleship cohorts had been held within five months, marking a significant step towards raising women who live out God's Word and influence their spheres." },
     { year: "2026", title: "Partnership opened", text: "WomanThatLeads began articulating its partnership vision to invite individuals, churches, organisations, and institutions to support its growing work through financial, resource, media, prayer, and strategic partnerships, expanding its reach in discipleship, leadership development, school outreach, and campus ministry." },
@@ -78,9 +77,16 @@ moment: {
   eyebrow: "Our Community",
   title: "Women growing together",
   paragraphs: [
-    "Women growing together placeholder: WomanThatLeads is a Christ-centred community where women are nurtured to grow in their relationship with God, discover their purpose, and become intentional about living out His Word. Through prayer, Scripture, fellowship, discipleship, conferences, and outreach, women find an environment to be spiritually strengthened, equipped for leadership, and encouraged to fulfil their God-given assignments. At Womanthatleads, every woman is challenged to grow beyond personal transformation and become a vessel of godly influence in her family, career, ministry, and society.",
+    "WomanThatLeads is a Christ-centred community where women are nurtured to grow in their relationship with God, discover their purpose, and become intentional about living out His Word. Through prayer, Scripture, fellowship, discipleship, conferences, and outreach, women find an environment to be spiritually strengthened, equipped for leadership, and encouraged to fulfill their God-given assignments. At Womanthatleads, every woman is challenged to grow beyond personal transformation and become a vessel of godly influence in her family, career, ministry, and society.",
   ],
 },
+};
+
+type Way = {
+  title: string;
+  text: string;
+  bank?: string;
+  accounts?: { name: string; currency: string; number: string }[];
 };
 
 export const partnership = {
@@ -115,8 +121,17 @@ export const partnership = {
   waysTitle: "Ways to partner",
   waysIntro: "We value every sincere contribution. Choose what fits your capacity.",
   ways: [
-    { title: "Prayer", text: "Stand with us in intercession for our women, programmes and leaders." },
-    { title: "Finances", text: "Give once or consistently towards programmes, outreach and operations. [Placeholder: add giving details.]" },
+  {
+    title: "Finances",
+    text: "Give once or consistently towards programmes, outreach and operations.",
+    bank: "Providus Bank",
+    accounts: [
+      { name: "Woman That Leads Global Ministry", currency: "NGN", number: "1308918776" },
+      { name: "WomanThatLeads – Conferences", currency: "NGN", number: "1308943617" },
+      { name: "Woman That Leads – Global Ministry", currency: "USD", number: "8508943595" },
+      { name: "Woman That Leads Global Ministry", currency: "GBP", number: "8508943605" },
+    ],
+  },
     { title: "Professional expertise", text: "Lend skills in law, finance, media, technology, education, health, design and more." },
     { title: "Resources", text: "Provide venues, equipment, materials, printing, data or goods in kind." },
     { title: "Strategic relationships", text: "Open doors, make introductions and connect us with people who can multiply the work." },
@@ -170,7 +185,7 @@ export const events = [
     summary: "",
     highlights: ["Prayers", "Worship", "Panel Session", "The Word", "An Impartation Session"],
     testimonies: [{ quote: "[Placeholder testimony from an attendee.]", name: "Anu" }],
-    photos: ["https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431691/the_builders_mandate-97.jpg",
+    photos: ["https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431684/the_builders_mandate-147.jpg",
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431691/the_builders_mandate-134.jpg",
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431691/the_builders_mandate-120.jpg",
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431683/the_builders_mandate-136.jpg",
@@ -187,7 +202,7 @@ export const events = [
     highlights: ["Prayers", "Worship", "Panel Session", "The Word", "An Impartation Session"],
     testimonies: [{ quote: "This program was a pivoting experience for me. I gained clarity and direction and I moved from complacency to taking actions and responsibilities for my life other than settling for handovers", name: "Oyin" }],
     photos: ["https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431240/IMG_5384.jpg",
-      "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431241/IMG_5563.jpg", 
+      "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431240/IMG_5511.jpg", 
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431239/IMG_5395.jpg",
        "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431241/IMG_5738.jpg",
        "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431240/IMG_5536.jpg",
@@ -277,7 +292,7 @@ export const upcoming: Programme[] = [
   {
     day: "28", month: "Nov", year: "2026", title: "Travail", subtitle: "She Leads Conference OOU", scripture: "Isaiah 66:8",
     time: "10:00 AM prompt", venue: "Olabisi Onabanjo University, Ogun State", mode: "In person",
-    convener: "Faith Adedoja", guest: "Mide Great-Chukwuebuka", contact: "09064624869",
+    convener: "Faith Adedoja", guest: "Mide Great-Chukwuebuka", contact: "0706 412 9377",
     desc: "Woman That Leads presents Travail, the She Leads Conference at Olabisi Onabanjo University. TRAVAIL is a divine encounter designed to draw you into deeper intimacy with God through fervent prayer, worship, and the Word. Attendees should expect spiritual renewal, fresh encounters with the Holy Spirit, divine impartation, and the grace to birth God's purposes for their lives and generations.",
     tags: ["Conference", "Women", "Leadership"],
     poster: "/images/travail-poster.png",
