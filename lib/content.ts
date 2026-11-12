@@ -184,7 +184,7 @@ export const events = [
     title: "The Master Builders", date: "November 1, 2025", venue: "TASUED, Ijagun, Ijebu Ode", theme: "Master's Builder", attendance: "100+ attendees",
     summary: "",
     highlights: ["Prayers", "Worship", "Panel Session", "The Word", "An Impartation Session"],
-    testimonies: [{ quote: "[Placeholder testimony from an attendee.]", name: "Anu" }],
+    testimonies: [{ quote: "This meeting Master's Builder really blessed me. From the director's chitchat session and to the main word. I just continually had the consciousness I cannot be small. Also, He delivered me from Ignorance and from that time I was more strengthened to do more in God cos I thought it has ended", name: "Anu" }],
     photos: ["https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431684/the_builders_mandate-147.jpg",
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431691/the_builders_mandate-134.jpg",
       "https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431691/the_builders_mandate-120.jpg",
@@ -273,12 +273,13 @@ photos: ["https://res.cloudinary.com/gb6p9b7e/image/upload/v1792431679/the_build
 };
 
 export const people = [
-  { name: "Faith Adedoja", role: "Founder / Lead", bio: "Faith Adedoja is the Convener of WomanThatLeads, a vibrant women’s ministry birthed from a divine mandate following a life-changing encounter with God. What began as a Christian blog has grown into a thriving ministry with both online and physical expressions, reaching and transforming lives across generations. Through mentorship, conferences, campus invasions, and secondary school outreaches reaching over 1,500 young women across Southwest Nigeria, Faith is passionate about raising a generation of women who are rooted in Christ, equipped for leadership, and empowered to walk boldly in their God-ordained purpose.", photo: "" },
-  { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
-  { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
-  { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
-  { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
-  { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
+  { name: "Faith Adedoja", role: "Founder / Lead", bio: "Faith Adedoja is the Convener of WomanThatLeads, a vibrant women’s ministry birthed from a divine mandate following a life-changing encounter with God. What began as a Christian blog has grown into a thriving ministry with both online and physical expressions, reaching and transforming lives across generations. Through mentorship, conferences, campus invasions, and secondary school outreaches reaching over 1,500 young women across Southwest Nigeria, Faith is passionate about raising a generation of women who are rooted in Christ, equipped for leadership, and empowered to walk boldly in their God-ordained purpose.",
+     photo: "https://res.cloudinary.com/gb6p9b7e/image/upload/v1794480586/WhatsApp_Image_2026-11-12_at_11.20.08.jpg" },
+  // { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
+  // { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
+  // { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
+  // { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
+  // { name: "Full Name", role: "Role", bio: "[Placeholder: short bio.]", photo: "" },
 ];
 
 export type Programme = {

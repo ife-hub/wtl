@@ -24,7 +24,7 @@ export default function People() {
         </Reveal>
       </section>
 
-      <section className="tint">
+      {/* <section className="tint">
         <Reveal className="w">
           <div className="eyebrow">The Team</div><h2>Serving together</h2><div className="rule" />
           <div className="ppl">
@@ -33,7 +33,7 @@ export default function People() {
             ))}
           </div>
         </Reveal>
-      </section>
+      </section> */}
 
       <Cta title="Serve with us" text="Want to use your gifts to help raise women leaders? We would love to hear from you." primary={{ label: "Get in touch", href: "/contact" }} />
     </>
