@@ -11,7 +11,7 @@ export default function People() {
   const [lead, ...team] = people;
   return (
     <>
-      <PageHeader eyebrow="The People of WTL" title="The women behind the vision" intro="Meet the leaders and team serving women through Woman That Leads." />
+      <PageHeader eyebrow="The People of WTL" title="The face behind the vision" intro="Meet the founder of Woman That Leads." />
 
       <section>
         <Reveal className="w feat">
