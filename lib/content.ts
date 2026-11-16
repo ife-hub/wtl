@@ -64,7 +64,7 @@ export const about = {
   stats: [
     { n: "30+", label: "Women discipled" },
     { n: "10+", label: "Events held" },
-    { n: "7", label: "Years of ministry" },
+    //{ n: "7", label: "Years of ministry" },
   ],
   milestones: [
     { year: "2019", title: "The vision is born", text: "WomanThatLeads began as an online blog, driven by Faith Adedoja’s burden to see women grow in God and fulfill their God-given purpose. During a personal retreat in January 2020, the vision became a ministry, following the leading of the Holy Spirit." },
