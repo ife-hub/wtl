@@ -7,7 +7,7 @@ import { people } from "@/lib/content";
 
 export const metadata: Metadata = { title: "The People of WTL" };
 
-export default function People() {
+export default function People() { 
   const [lead, ...team] = people;
   return (
     <>
