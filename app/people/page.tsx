@@ -13,7 +13,7 @@ export default function People() {
     <>
       <PageHeader eyebrow="The People of WTL" title="The face behind the vision" intro="Meet the founder of Woman That Leads." />
 
-      <section>
+      <section> 
         <Reveal className="w feat">
           <div className="ph tall" style={{ padding: 0, overflow: "hidden" }}><Photo src={lead.photo} label="Leader photo" className="tall" /></div>
           <div className="stack">
